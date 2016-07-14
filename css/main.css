@@ -1,8 +1,26 @@
+.container {
+  color: #2d3c49;
+}
+
 .line-break {
   width: 100%;
   background-color: #7d97ad;
   height: 5px;
   margin: 20px 0;
+}
+
+.portfolio-header {
+  color: #7d97ad;
+  margin: 20px 0 5px 5px;
+}
+
+.work-image {
+  margin: auto;
+}
+
+.work-url {
+  display: inline;
+  vertical-align: middle;
 }
 
 .responsive-image {
@@ -12,4 +30,9 @@
 .logo {
   max-width: 100%;
   width: 100px;
+}
+
+.github-logo {
+  width: 35px;
+  margin-left: 5px;
 }
