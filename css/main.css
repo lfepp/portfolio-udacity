@@ -1,5 +1,10 @@
 .container {
-  color: #2d3c49;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.header-text {
+  font-weight: 300;
 }
 
 .line-break {
@@ -9,13 +14,19 @@
   margin: 20px 0;
 }
 
+.main-section {
+  margin-bottom: 25px;
+}
+
 .portfolio-header {
   color: #7d97ad;
   margin: 20px 0 5px 5px;
 }
 
-.work-image {
-  margin: auto;
+.portfolio-work {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
 .work-url {
@@ -35,4 +46,13 @@
 .github-logo {
   width: 35px;
   margin-left: 5px;
+  position: relative;
+}
+
+.github-logo:hover {
+  top: -5px;
+}
+
+@media screen and (max-width: 991) {
+  
 }
