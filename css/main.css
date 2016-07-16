@@ -3,6 +3,11 @@
   font-weight: 400;
 }
 
+.header-row {
+  display: flex;
+  align-items: center;
+}
+
 .header-text {
   font-weight: 300;
 }
@@ -53,6 +58,15 @@
   top: -5px;
 }
 
-@media screen and (max-width: 991) {
-  
+@media screen and (max-width: 767px) {
+  .portfolio-work {
+    flex-direction: column;
+  }
+
+  .header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
